@@ -1,5 +1,5 @@
 
-# 📱 Google Play Certification (cmd) by Priyanshu
+# 📱 Google Play Certification (pc) by Priyanshu
 
 > **Purpose:**  
 > This guide helps you attempt to resolve the **Play Protect certification error** on Android devices (especially those running custom ROMs).  
