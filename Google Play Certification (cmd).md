@@ -49,7 +49,7 @@ adb root && adb shell "sqlite3 /data/user/$(cmd activity get-current-user)/*/*/g
 
 ### 3. ♻️ Resetting Play Store Services
 
-Run this command to clear Play Store and Google Play Services data, then reboot:
+Run this command:
 
 ```bash
 adb shell pm clear com.android.vending && adb shell pm clear com.google.android.gms && adb reboot
@@ -65,9 +65,3 @@ adb shell pm clear com.android.vending && adb shell pm clear com.google.android.
 
 ---
 
-## ✨ Happy Android Customizing!
-
-```
-
-Let me know if you'd like a downloadable `.md` file or if you'd like me to add badges, license, or repo description as well.
-```
