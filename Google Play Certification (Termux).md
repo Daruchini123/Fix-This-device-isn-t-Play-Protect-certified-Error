@@ -10,14 +10,14 @@ This script involves root access. **Only proceed if your device is rooted.** Any
 
 ### 🚀 Steps
 
-#### 1. Install SQLite in Termux
+#### 1. Installing SQLite in Termux
 
 ```bash
 pkg update && pkg upgrade
 pkg install sqlite
 ```
 
-#### 2. Get Your Android ID
+#### 2. Getting Your Android ID
 
 ```bash
 su -c "sqlite3 /data/data/com.google.android.gms/databases/gservices.db \"SELECT value FROM main WHERE name = 'android_id';\""
@@ -27,7 +27,7 @@ su -c "sqlite3 /data/data/com.google.android.gms/databases/gservices.db \"SELECT
 
 ---
 
-#### 3. Register on Google
+#### 3. Registering on Google
 
 * Go to: [https://www.google.com/android/uncertified](https://www.google.com/android/uncertified)
 * Sign in with your Google account.
@@ -35,7 +35,7 @@ su -c "sqlite3 /data/data/com.google.android.gms/databases/gservices.db \"SELECT
 
 ---
 
-#### 4. Clear Google Play & Play Services Cache
+#### 4. Clearing Google Play & Play Services Cache
 
 ```bash
 su -c "pm clear com.android.vending && pm clear com.google.android.gms && reboot"
