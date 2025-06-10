@@ -9,7 +9,6 @@ This script involves root access. **Only proceed if your device is rooted.** Any
 ---
 
 ### 🚀 Steps
-https://github.com/Daruchini123/system-tweaks/blob/main/Screenshot%202025-05-24%20163000.png
 
 #### 1. Installing SQLite in Termux
 
