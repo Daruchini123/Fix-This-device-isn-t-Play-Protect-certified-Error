@@ -13,7 +13,6 @@ This script involves root access. **Only proceed if your device is rooted.** Any
 #### 1. Installing SQLite in Termux
 
 ```bash
-pkg update && pkg upgrade
 pkg install sqlite
 ```
 
