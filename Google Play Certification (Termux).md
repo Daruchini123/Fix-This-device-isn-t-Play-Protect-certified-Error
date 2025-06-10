@@ -3,6 +3,7 @@
 ---
 
 ### ⚠️ Disclaimer
+![Image](https://github.com/user-attachments/assets/955f39eb-b25a-48d5-a0cd-11ff25fdf86e)
 
 This script involves root access. **Only proceed if your device is rooted.** Any misuse is your responsibility.
 
