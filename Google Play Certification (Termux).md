@@ -1,4 +1,4 @@
-## 📱 Google Play Certification (via Termux) Credit Tim Parker (TG)
+## 📱 Google Play Certification (Termux) Credit Tim Parker (TG)
 
 ---
 
