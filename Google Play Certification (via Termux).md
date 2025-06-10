@@ -1,30 +1,10 @@
-Absolutely. Below is a GitHub-style `README.md` document you can use for a repository to guide users through the process of getting Google Play certification using Termux.
-
----
-
-## 📱 Google Play Certification (via Termux)
-
-> A step-by-step guide to get your Android device certified on Google Play using Termux.
+## 📱 Google Play Certification (via Termux) Credit Tim Parker (TG)
 
 ---
 
 ### ⚠️ Disclaimer
 
 This script involves root access. **Only proceed if your device is rooted.** Any misuse is your responsibility.
-
----
-
-### 🔧 Prerequisites
-
-* Rooted Android device
-* Termux installed
-* Basic Linux knowledge
-
----
-
-### 🧠 What This Does
-
-This guide extracts your device's `android_id` using Termux and SQLite, and helps you register it manually on Google's uncertified device portal so your device can pass SafetyNet or get Play Store access.
 
 ---
 
@@ -74,18 +54,3 @@ Once your device reboots, give Google a few minutes to process the certification
 ### 💡 Tip
 
 If you still see "Device is not certified," try re-adding your Google account after a few hours.
-
----
-
-### 📂 GitHub Repo Structure (Optional)
-
-If you want to turn this into a GitHub repo, structure it like this:
-
-```
-google-play-certification-termux/
-│
-├── README.md          # This file
-└── LICENSE            # (Optional) MIT or GPL license
-```
-
-Let me know if you want this turned into a `.sh` script version as well!
